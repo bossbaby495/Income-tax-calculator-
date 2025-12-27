@@ -1,5 +1,4 @@
-# Income-tax-calculator-
-Python program to compute US federal income tax (2009)
+
 
 # Topic: Personal Income Tax Calculator
 # Name: Okah-Benjamin Shalom Ogh.
@@ -70,11 +69,4 @@ elif status == 3:  # Head of household
     elif income <= 372950:
         tax = 11950 * 0.10 + (45500 - 11950) * 0.15 + (117450 - 45500) * 0.25 + (190200 - 117450) * 0.28 + (income - 190200) * 0.33
     else:
-        tax = 11950 * 0.10 + (45500 - 11950) * 0.15 + (117450 - 45500) * 0.25 + (190200 - 117450) * 0.28 + (372950 - 190200) * 0.33 + (income - 372950) * 0.35
-
-else:
-    print("Invalid filing status")
-    tax = None
-
-if tax is not None:
-    print("Total tax payable is: $", round(tax, 2))
+        tax = 11950 * 0.10 + (45500 - 11950) * 0.15 + (117450 - 45500) * 0.25 + (190200 - 117450) * 0.28 + (372950 - 190200) * 0.33 + (income - 372950) *
